@@ -17,7 +17,7 @@ public class Repairment {
         faultmap.put("断电", 1); // 将故障存储到Map中
         faultmap.put("下水道堵塞", 2);
         faultmap.put("电梯故障", 3);
-        fault_type = faultmap.get();
+//        fault_type = faultmap.get();
 
 
 
