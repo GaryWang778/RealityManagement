@@ -11,6 +11,7 @@ public class Repairment {
     public int fault_type;//故障类别
     public String report_person;//报修人
     public String report_method;//报修来源
+    public int worker;//分配的维修工
     //构造函数
     public Repairment(){
         HashMap< String, Integer> faultmap = new HashMap< String, Integer>();
