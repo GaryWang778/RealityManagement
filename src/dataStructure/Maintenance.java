@@ -1,14 +1,15 @@
 package dataStructure;
 
 
+import java.util.ArrayList;
+
 public class Maintenance {
-    float start_time; //开始时间
-    int frequency; //第几次维修
-    int cumulative_time;//累计维修工时
-    float finished_time;//完成时间
+    public int id;
+    public ArrayList<Float> start_time = new ArrayList<Float>();
+    public ArrayList<Float> finished_time = new ArrayList<Float>();
+    public int frequency = 0; //第几次维修
+    public int cumulative_time = 0;//累计维修工时
 
     //构造函数
-    public Maintenance(){
 
-    }
 }
